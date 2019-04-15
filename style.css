@@ -126,7 +126,7 @@ input {
   -webkit-transition: opacity 130ms;
   width: 100%;
 }
-#topside {
+.topside {
     padding-left: 30px;
     padding-right: 15px;
     align-items: center;
@@ -144,7 +144,7 @@ input {
   padding-left: 0;
   vertical-align: middle;
 }
-#button {
+.button {
   display: inline-block;
   line-height: 24px;
   outline: none;
