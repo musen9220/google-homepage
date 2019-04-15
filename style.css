@@ -1,75 +1,170 @@
-
-.search {
-background-color: transparent;
-border: none;
-vertical-align: top;
-border-radius: 2px;
-font-size:13px;
-font-family: arial, sans-serif;
-text-align: left;
-display: block;
-max-width:584px;
-position: absolute;
-  width: 300px;
-  height: 200px;
-  
-  top: 45%;
-  left: 50%;
-  margin: -100px 0 0 -200px;
+body {
+  cursor: default;
+  font: small arial,sans-serif;
+  margin: 0;
+  min-width: 360px;
+  min-height: 100%;
+  overflow-x: hidden;
+  text-align: -webkit-center;
 }
 
-.button1 {
-height: 58px;
-padding-top:10px;
-line-height: -0px;
-text-align: center;
-border: 1px solid #f2f2f2;
-background-color: #f2f2f2;
-border-radius: 2px;
-color: #757575;
-cursor: default; 
-font-family: arial, sans-serif;
-font-size: 13px;
-font-weight: bold;
-margin: 11px 4px 11px 4px;
-min-width: 54px;
-width:125px;
-height: 36px;
+div {
+  display: block;
 }
 
-.buttons {
-position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
- 
+#TZA4S {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
-#number2 {
-width:142.58px;
-height: 36px;
+#lga {
+  margin-top: 45px;
+  margin-bottom:0;
+  padding-bottom:0;
+  text-align: -webkit-center;
 }
 
-#main {
-position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 35%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
+form {
+  display: block;
+  margin-top: 0em;
+  height: 39px;
+}
+#fkbx {
+  background-color: #F1F3F4;
+  border: none;
+  border-radius: 22px;
+  box-shadow: none;
+  outline: none;
+  height: 44px;
+  cursor: text;
+  display: inline-block;
+  font: 18px arial,sans-serif;
+  line-height: 36px;
+  opacity: 1;
+  transition: background-color 300ms ease-in-out;
+  transition: opacity 200ms;
+  max-width: 560px;
+}
+#fkbx-text {
+  color: rgb(128,134,139);
+  font-family: 'Roboto',arial,sans-serif;
+  font-size: 14px;
+  left: 0;
+  padding-left: 20px;
+}
+#fkbx>input {
+  background: transparent;
+  border: none;
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  outline: none;
+  padding: 0 8px;
+  position: absolute;
+  top: 2px;
+  width: 100%;
 }
 
-#lang {
-width: 100%;
-height: 200px;
- z-index: 16;
-top:50%;
-left:50%;
-position: absolute;
-margin:-10px 0 0 -150px;
-font-size: small;
-font-family: sans-serif;
+input {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  font: 400 13.3333px Arial;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  -webkit-appearance: textfield;
+  -webkit-writing-mode: horizontal-tb !important;
+  background: transparent;
+  border: none;
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  outline: none;
+  padding: 0 8px;
+  position: absolute;
+  top: 2px;
+  width: 100%;
+}
+#fkbx_crt {
+  bottom: 12px;
+  left: 20px;
+  top: 12px;
+  visibility: hidden;
+  width: 1px;
+  right: auto;
+  position: absolute;
+  background: #333;
+}
+#fkbx-spch {
+  margin-right: 6px;
+  padding-right: 0;
+  width: 28px;
+  padding: 22px 12px 0;
+  cursor: pointer;
+  height: 21px;
+  background: url(/home/musen9220/Downloads/gmic.png) no-repeat center;
+  background-size: 24px 24px;
+  position: absolute;
+  right: 780;
+  top: 210;
+}
+#mngb {
+  position: absolute;
+  top: 15px;
+  -webkit-transition: opacity 130ms;
+  width: 100%;
+}
+#topside {
+    padding-left: 30px;
+    padding-right: 15px;
+    align-items: center;
+    float: right;
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex: 0 1 auto;
+    line-height: normal;
+    white-space: nowrap;
+    z-index: 987;
+}
+#firstoption {
+  display: inline-block;
+  padding-left: 0;
+  vertical-align: middle;
+}
+#button {
+  display: inline-block;
+  line-height: 24px;
+  outline: none;
+  vertical-align: middle;
+  color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+a:visited {
+  color: #609;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#settings {
+  background: url(/home/musen9220/Downloads/settings.png) no-repeat center;
+  background-size: 16px 16px;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
